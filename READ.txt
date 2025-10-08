@@ -40,3 +40,19 @@ ans if you want to move whole file back to untracked area means working area the
 -- if we want to avoid vim edit for adding commit massage then enter git commit -m "add commit message " 
 
 13) git commit - m "this is my fifth commit" .
+
+14) git remote - list down all the remote connection 
+
+15) remote connecttion - ite help two connect two git respository for upload and download the changes each other 
+
+
+Remote connection -> It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+git remote add <name of remote> <link of the remote> : this command helps us to add a new link to the remote repo and give a name to it
+
+git remote rm <name of remote> : this command deletes a remote connection
+
+git remote rename <olanme> <newname> : this command remanes the remote connection
+
+Note: The name of the remote connection is always used to establish communication between the repos
+
