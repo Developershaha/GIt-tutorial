@@ -39,4 +39,4 @@ ans if you want to move whole file back to untracked area means working area the
 
 -- if we want to avoid vim edit for adding commit massage then enter git commit -m "add commit message " 
 
-13) git commit - m "this is my fifth commit" 
+13) git commit - m "this is my fifth commit" .
