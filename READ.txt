@@ -12,3 +12,23 @@
 it means that changes done or to be done in those files are not manage by git yet . A file which is working area is consider to be not in the staging area . when we do `git status ` when we see bunch of untracked files then these are acutully called to be in the working area
 
 
+2) STAGE AREA : what all files are part of next vesrion area . this staging area where git knows what changes will be done to the last vesrsion to next version 
+
+
+3) RESPOSITORY AREA : this area actually contain details of all previous version resister version . and the file in the area , git already manages them and knows their version 
+
+4) `git add <file> : -  moves file from working area to staging area 
+
+5) git rm --cached <file > move from stataging area to working area 
+
+6) meaning of COMMIT - cmommit is a perticular version of a project . It capture a particular snapshop of a project from staging area changes area craete a version out of it 
+
+7) git commit : resister staging changes to a commit 
+
+8) git log : list donw all the commits for the respository 
+9) git restore <file> : it remove all files changes from the working  area to be committed . This can be usefull if we add some dirty peace of code and no more wanted 
+instead of deleting every change line by line , we can restore or it we can say restore last version 
+
+10) git restore -- staging <file> -- it removes files from stage area to working area 
+
+-- git restore from statign area 
