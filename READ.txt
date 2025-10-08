@@ -31,4 +31,4 @@ instead of deleting every change line by line , we can restore or it we can say 
 
 10) git restore -- staging <file> -- it removes files from stage area to working area 
 
--- git restore from statign area 
+-- git restore from statign area  
