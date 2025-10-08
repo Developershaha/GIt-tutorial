@@ -32,3 +32,6 @@ instead of deleting every change line by line , we can restore or it we can say 
 10) git restore -- staging <file> -- it removes files from stage area to working area 
 
 -- git restore from statign area  
+
+11) diff between git rm and git restore 
+ans if you want to move whole file back to untracked area means working area then we do git rm otherwise if we want to move from staging or working are then do git restore 
